@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Semantic Navbar & Audios</title>
-  <link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+	<!-- the entire body must be written by student -->
+	<nav role="navigation">
+		<ul role="list">
+			<li role="listitem">
+			<a href="https://www.google.co.in/" target="_blank">Google</a>
+			</li>
+		</ul>
+		<ul role="list">
+			<li role="listitem">
+			<a href="https://in.search.yahoo.com/" target="_blank">Yahoo</a>
+			</li>
+		</ul>
+		<ul role="list">
+			<li role="listitem">
+			<a href="https://www.bing.com/" target="_blank">Bing</a>
+			</li>
+		</ul>
+	</nav>
+	<section>
+		<h1 role="heading">3 random audios</h1>
+		<div>
+		<audio controls>
+			<source src=" http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"/>
+		</audio>	
+		</div>
+		<div>
+		<audio controls>
+			<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"/>
+		</audio>	
+		</div>
+		<div>
+		<audio controls>
+			<source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3"/>
+		</audio>	
+		</div>
+		
+		
+		
+	</section>
+    <script type="text/javascript" src="./script.js">
+</script>
 
-  <!-- Part 1: Semantic Navbar -->
-  <nav>
-    <ul>
-      <li><a href="https://www.google.co.in/" target="_blank">Google</a></li>
-      <li><a href="https://www.bing.com/" target="_blank">Bing</a></li>
-      <li><a href="https://in.search.yahoo.com/" target="_blank">Yahoo</a></li>
-    </ul>
-  </nav>
-
-  <!-- Part 2: Audio Section -->
-  <section>
-    <h1>3 random audios</h1>
-
-    <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-
-    <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-      Your browser does not support the audio element.
-    </audio>
-
-    <audio controls>
-      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </section>
-
-  <script type="text/javascript" src="./script.js"></script>
 </body>
+
 </html>
